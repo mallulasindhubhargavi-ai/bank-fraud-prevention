@@ -1,0 +1,9 @@
+[build]
+  publish = "src/main/webapp"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/fraud-check"
+  to = "/.netlify/functions/fraud-check"
+  status = 200
+
